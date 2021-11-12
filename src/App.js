@@ -4,6 +4,7 @@ import Login from './Components/Login';
 import Signup from './Components/Signup';
 import SignupIntro from './Components/SignupIntro';
 
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 function App() {

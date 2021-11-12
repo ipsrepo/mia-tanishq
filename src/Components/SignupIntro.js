@@ -2,7 +2,7 @@ import React from 'react'
 
 const SignupIntro = () => {
   return (
-    <div className="col-6 col-md-6 col-sm-12" >
+    <div className="col-6 col-md-6 col-sm-12 col-xs-12" >
     <h2>NEW USER?  CREATE AN ACCOUNT</h2>
     <h4>
     Benefits of Creating an New Account
