@@ -1,0 +1,105 @@
+.signup {
+  width: 100%;
+  max-width: 520px;
+  margin: 0 auto;
+}
+
+.signup img {
+  width: 60px;
+}
+
+.signup section {
+  border: 1px solid #f15060 !important;
+  border-radius: 20px !important;
+  position: relative;
+  margin: 24px 0 16px;
+}
+
+.signup section header {
+  display: flex;
+  justify-content: center;
+  margin-top: -53px;
+}
+.signup section h3 {
+  text-transform: uppercase;
+  font-family: "Cormorant Infant", serif;
+  font-size: 22px;
+  font-weight: 100;
+  display: flex;
+  justify-content: center;
+  background: #fff;
+  padding: 16px 32px;
+  width: fit-content;
+}
+
+form .input-container {
+  margin: 32px 16px 60px;
+}
+
+.input-group {
+  width: 100%;
+}
+
+input,
+select {
+  border: 1px solid #f7f7f7;
+  border-radius: 0;
+  background-color: #f7f7f7;
+  height: 50px;
+  box-shadow: none;
+  padding: 6px 12px;
+  margin-bottom: 40px;
+  font-size: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.check-item{
+  display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.check-item p{
+  font-size: 14px;
+}
+input[type='checkbox'] {
+  width: auto;
+  height: auto;
+  margin: 0 8px 0 0;
+  float: left;
+}
+
+.input-group.multi input,
+.input-group.multi select {
+  text-align: left;
+}
+.input-group.multi {
+  display: flex;
+}
+
+.input-group.multi .pre-input {
+  display: flex;
+  text-align: left;
+  flex: 160px 0 0;
+  margin-right: 16px;
+}
+
+button {
+  background-color: #f15060;
+  color: #fff;
+  border: 1px #f15060 solid;
+  border: 0;
+  border-radius: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  outline: 0;
+  width: 100%;
+  position: absolute;
+  margin-top: -32px;
+}
