@@ -9,6 +9,8 @@ const Signup = () => {
           <h3 className="form-head">Signup</h3>
         </header>
 
+       
+
         <form>
           <div className="input-container">
             <div className="input-group multi">
@@ -36,12 +38,18 @@ const Signup = () => {
               <input type="password" placeholder="Password *" />
             </div>
 
-            <div className="check-item"><input type="checkbox" /><p>Receive our newsletters and special offers.</p></div>
-            <div className="check-item"><input type="checkbox" /><p>Get updates on  WhatsApp</p></div>
-            <div className="check-item"><input type="checkbox" /><p>I agree to the Terms & Conditions * and Privacy Policy.</p></div>
-            
-            
-            
+            <div className="check-item">
+              <input type="checkbox" />
+              <p>Receive our newsletters and special offers.</p>
+            </div>
+            <div className="check-item">
+              <input type="checkbox" />
+              <p>Get updates on WhatsApp</p>
+            </div>
+            <div className="check-item">
+              <input type="checkbox" />
+              <p>I agree to the Terms & Conditions * and Privacy Policy.</p>
+            </div>
           </div>
           <button className="submit-btn">REGISTER</button>
         </form>

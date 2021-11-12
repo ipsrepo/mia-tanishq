@@ -1,0 +1,45 @@
+/* bootstrap Overrideing code */
+
+.accordion-item {
+  border: 0;
+  margin-bottom: 16px;
+}
+.accordion-item .accordion-header {
+  border: 1px solid #f15060 !important;
+  background-color: #fff;
+  background-image: none;
+  border-radius: 0;
+}
+
+.accordion-item .accordion-header .accordion-button {
+  font-weight: 600;
+  display: block;
+  text-align: center !important;
+}
+.accordion-body {
+  padding: 0;
+  margin-bottom: 36px;
+}
+.accordion-body h4 {
+  font-family: "Roboto", serif;
+  text-align: center;
+  font-size: 16px;
+  padding-top: 20px;
+  font-weight: 800;
+}
+
+.nav-tabs {
+  justify-content: center;
+  flex-wrap: nowrap;
+  border: 0;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link,
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link:hover{
+  border: 0;
+
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+  border-bottom: solid 2px #000 ;
+
+}
